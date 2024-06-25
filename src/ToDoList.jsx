@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./index.css"
 
 // Define a functional component named ToDoList
@@ -99,7 +100,7 @@ function ToDoList() {
                     type="button" className="btn btn-danger"
                         // Call the deleteTask function with the index of the task when the button is clicked
                         onClick={() => deleteTask(index)}>
-                        𝐗
+                    <i class="bi bi-trash"></i>
                     </button>
                     <button type="button" className="btn btn-primary"
                         // Call the moveTaskUp function with the index of the task when the button is clicked
