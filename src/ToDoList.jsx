@@ -85,8 +85,7 @@ function ToDoList() {
             value={newTask}
             // Call the handleInputChange function when the value of the input field changes
             onChange={handleInputChange}/>
-            <button 
-            className="add-button"
+            <button type="button" className="btn btn-outline-primary"
             // Call the addTask function when the button is clicked
             onClick={addTask}>Add Task</button>
         </div>
@@ -100,17 +99,17 @@ function ToDoList() {
                     type="button" className="btn btn-danger"
                         // Call the deleteTask function with the index of the task when the button is clicked
                         onClick={() => deleteTask(index)}>
-                        🗑️
+                        𝐗
                     </button>
                     <button type="button" className="btn btn-primary"
                         // Call the moveTaskUp function with the index of the task when the button is clicked
                         onClick={() => moveTaskUp(index)}>
-                        ⬆️
+                        ⬆
                     </button>
                     <button type="button" className="btn btn-primary"
                         // Call the moveTaskDown function with the index of the task when the button is clicked
                         onClick={() => moveTaskDown(index)}>
-                        ⬇️
+                        ⬇
                     </button>
                 </li>
             )}
