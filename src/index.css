@@ -38,3 +38,22 @@ button {
 .move-button:hover {
   background-color: darkblue (207, 90%, 54%);
 }
+input[type="text"] {
+  font-size: 1.7rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 50%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+}
