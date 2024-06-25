@@ -48,7 +48,7 @@ function ToDoList() {
                     <button 
                         className="delete-button"
                         onClick={() => deleteTask(index)}>
-                        Delete
+                        🗑️
                     </button>
                     <button 
                         className="move-button"
