@@ -97,19 +97,17 @@ function ToDoList() {
                 <li key={index}>
                     <span className="text">{task}</span>
                     <button 
-                    type="button" class="btn btn-success"
+                    type="button" className="btn btn-danger"
                         // Call the deleteTask function with the index of the task when the button is clicked
                         onClick={() => deleteTask(index)}>
                         🗑️
                     </button>
-                    <button 
-                        className="move-button"
+                    <button type="button" className="btn btn-primary"
                         // Call the moveTaskUp function with the index of the task when the button is clicked
                         onClick={() => moveTaskUp(index)}>
                         ⬆️
                     </button>
-                    <button 
-                        className="move-button"
+                    <button type="button" className="btn btn-primary"
                         // Call the moveTaskDown function with the index of the task when the button is clicked
                         onClick={() => moveTaskDown(index)}>
                         ⬇️
