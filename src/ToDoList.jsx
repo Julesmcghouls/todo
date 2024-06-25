@@ -97,7 +97,7 @@ function ToDoList() {
                 <li key={index}>
                     <span className="text">{task}</span>
                     <button 
-                        className="delete-button"
+                    type="button" class="btn btn-success"
                         // Call the deleteTask function with the index of the task when the button is clicked
                         onClick={() => deleteTask(index)}>
                         🗑️
