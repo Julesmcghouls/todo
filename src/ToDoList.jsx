@@ -1,8 +1,7 @@
 import React, { useState } from "react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./index.css"
 
-// Define a functional component named ToDoList
+// Define a functional component
 function ToDoList() {
 
     // Define a state variable named tasks using the useState hook
@@ -76,7 +75,7 @@ function ToDoList() {
     return (
     <div className="ToDoList">
 
-        <h1>To Do List</h1>
+        <h1>To Do Ghoul</h1>
 
         <div>
             <input 
@@ -86,7 +85,7 @@ function ToDoList() {
             value={newTask}
             // Call the handleInputChange function when the value of the input field changes
             onChange={handleInputChange}/>
-            <button type="button" className="btn btn-outline-primary"
+            <button type="button" className="btn btn-primary"
             // Call the addTask function when the button is clicked
             onClick={addTask}>Add Task</button>
 
